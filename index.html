@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vorra Support</title>
+  <meta name="description" content="Support information for Vorra, a local-first health and wellness tracker.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f8f5;
+      --surface: #ffffff;
+      --text: #18201d;
+      --muted: #5f6a65;
+      --border: #dce2dd;
+      --accent: #2f6f5e;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #101412;
+        --surface: #171d1a;
+        --text: #edf3ee;
+        --muted: #aeb9b2;
+        --border: #2b342f;
+        --accent: #78c7aa;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(720px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section {
+      padding: 22px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    .panel {
+      margin-top: 18px;
+      padding: 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .small {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Vorra Support</h1>
+      <p>Vorra is a local-first health and wellness tracker. It does not use accounts, cloud storage, analytics tracking, or a support portal.</p>
+    </header>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For app-related questions, email <a href="mailto:pratt12b@icloud.com?subject=Vorra">Vorra</a>.</p>
+    </section>
+
+    <section>
+      <h2>Billing And Subscriptions</h2>
+      <p>Vorra subscriptions are processed by Apple. For refunds, purchase history, subscription cancellation, or billing problems, use <a href="https://reportaproblem.apple.com">Apple's Report a Problem</a>.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy</h2>
+      <p>Health data stays on your device unless you choose to export, back up, or share it. Vorra does not operate servers that collect or process your personal health information. Vorra does not require an account and does not include third-party analytics, advertising, or tracking SDKs.</p>
+      <div class="panel small">
+        Vorra is for education and wellness tracking only. It does not diagnose, treat, cure, or prevent disease. Always consult a qualified healthcare provider before making medical decisions.
+      </div>
+    </section>
+
+    <section>
+      <h2>Data Use</h2>
+      <p>Vorra reads Apple Health data only with your permission. Optional write-back can save entries you create in Vorra, such as workouts or weight, back to Apple Health when enabled in the app. Barcode food searches may query Open Food Facts using the barcode or search term only.</p>
+    </section>
+
+    <section>
+      <h2>Data Control</h2>
+      <p>You can export CSV files or create a JSON backup to a location you choose. Deleting the app removes locally stored Vorra data from the device unless you previously exported or backed it up.</p>
+    </section>
+  </main>
+</body>
+</html>
